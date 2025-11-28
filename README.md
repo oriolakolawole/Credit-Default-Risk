@@ -7,23 +7,23 @@ This project builds a high-performance machine learning model for credit default
 **Project Description**
 
 Financial institutions rely on accurate default prediction to minimize losses and improve lending decisions.
-This project uses a large, real-world–style dataset (LendingClub-like) and trains an XGBoost classifier capable of identifying defaulted vs non-defaulted loans with extremely strong performance.
+This project uses a large, real-world–style dataset and trains an XGBoost classifier capable of identifying defaulted vs non-defaulted loans with extremely strong performance.
 
 **The notebook:**
 
 - Loads a large dataset -> 2694776 Rows X 142 Columns
 
-Performs deep preprocessing
+- Performs deep preprocessing
 
-Builds key credit-risk features
+- Builds key credit-risk features
 
-Feature engineering using correlation
+- Feature engineering using correlation
 
-Feature Selection using RandomForestClassifier
+- Feature Selection using RandomForestClassifier
 
-Studies class imbalance and threshold tuning
+- Studies class imbalance and threshold tuning
 
-Trains an XGBoost classifier for Prediction
+- Trains an XGBoost classifier for Prediction
 
-Evaluates using multiple metrics
+- Evaluates using multiple metrics
 
