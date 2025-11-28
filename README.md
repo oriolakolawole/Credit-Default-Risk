@@ -1,6 +1,6 @@
 # Credit Default Prediction 
 
-This project builds a high-performance machine learning model for credit default prediction, using a large loan dataset loaded directly from disk. The notebook includes full preprocessing, feature engineering, model training, evaluation, and threshold analysis — ultimately achieving ~99% accuracy
+This project builds a high-performance machine learning model for credit default prediction, using a large loan dataset loaded directly from kaggle. The notebook includes full preprocessing, feature engineering, model training, evaluation, and threshold analysis — ultimately achieving ~99% accuracy
 
 ---
 
@@ -9,9 +9,9 @@ This project builds a high-performance machine learning model for credit default
 Financial institutions rely on accurate default prediction to minimize losses and improve lending decisions.
 This project uses a large, real-world–style dataset (LendingClub-like) and trains an XGBoost classifier capable of identifying defaulted vs non-defaulted loans with extremely strong performance.
 
-The notebook:
+**The notebook:**
 
-Loads a large dataset -> 2694776 Rows X 142 Columns
+- Loads a large dataset -> 2694776 Rows X 142 Columns
 
 Performs deep preprocessing
 
